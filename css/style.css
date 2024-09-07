@@ -8155,7 +8155,7 @@ a {
   color: #ffbd39; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #ffbd39;
+    color: #212121 !important;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
@@ -9062,6 +9062,10 @@ textarea.form-control {
 
 .bg-primary {
   background: #ffbd39 !important; }
+
+.service-card:hover {
+  color: #212121 !important;
+}
 
 .about-author {
   -webkit-border-radius: 5px;
