@@ -1,0 +1,13 @@
+ User-agent: *
+Allow: /
+
+# Block specific directories (if they exist)
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Allow all bots to crawl the PDF and other content
+Allow: /Fadel_Agli_CV.pdf
+
+# Sitemap location
+Sitemap: https://www.fadelagliportfolio.com/sitemap.xml
